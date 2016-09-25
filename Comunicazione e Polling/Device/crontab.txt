@@ -1,0 +1,2 @@
+#run mon batch every 5 min
+*/5 * * * * /home/pi/Documents/RaspeinMon/monBatch.sh

@@ -1,0 +1,33 @@
+.myFooter{
+		width: 100%;
+		height: 7.4%;
+		background-color: #cecece;
+}
+.logoAlma{
+	display:none;
+}
+.logoAlma,.loghisocial, .logoW3C{
+	margin-top:10%;
+	margin-bottom:10%;
+}
+	
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 1200px) {
+	
+	.myFooter{
+		width: 100%;
+		height: 7.4%;
+		background-color: #cecece;
+	}
+	
+
+
+}

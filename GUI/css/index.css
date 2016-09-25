@@ -1,0 +1,216 @@
+.colContainer{
+		border-radius: 0.5em;
+		border-width: 0.2em;
+		border-color: #dadada;
+		border-style: solid;
+		padding:1em;
+}
+.controlRow{
+		margin-top:3%;
+}
+.datePicker{
+	font-family:Roboto;
+	border:0;
+	background-color:transparent;
+}
+.deviceIcon:hover{
+	background-color:rgba(52, 175, 211,0.2);
+}
+.deviceInfo{
+	font-family: Roboto;
+	color: #34afd3;
+	font-weight: 500;
+}
+h1{
+
+	font-family: Raleway;
+	color: #252525;
+	font-size: 1.5em;
+	font-weight:900;
+}
+h6{
+	font-family: Roboto;
+	color: #000000;
+	font-weight: 500;
+}
+#modalH3{
+	font-family: Roboto;
+	color: #2aaed4;
+	font-weight: 500;
+}
+.myBlue{
+	color:#34afd3;
+}
+.myLightBlue{
+	background-color:rgba(52, 175, 211,0.2);
+	font-family:Roboto;
+}
+.myBlue:hover{
+	color:#ea6b56 !important;	
+}
+.myBodyContainer{
+	padding:0;
+	margin:0;
+}
+.myModal{
+	border-radius:0;
+	background:#f8f8f8;
+	padding:1em 1em 0.5em 1em;
+}
+.myModalBody{
+	padding-top:0;
+}
+
+.myModalHeader{
+	border:0;
+	padding-bottom:0;
+}
+.myResIcon{
+	background-color:transparent;
+	border:0;
+}
+.myWhiteDiv{
+	background:#ffffff;
+}
+.readMoreBtn{
+	border-radius:0;
+	font-family:Roboto;
+	background-color: #34afd3;
+}
+.singleDataCont:hover{
+	background-color:rgba(52, 175, 211,0.2);
+}
+.towerLegend{
+	border:0;
+	margin:0 auto;
+	width:auto;
+	padding:0 1em 0 1em;
+	font-family: Roboto;
+	color: #dadada;
+	font-weight: 400;
+}
+.valGetFromTo{
+	border-radius:0;
+	background-color:transparent;
+	border:0;
+}
+.valGetFromTo:hover,.valGetFromTo:focus,.valGetFromTo:active{
+	background-color:rgba(52, 175, 211,0.2) !important;
+}
+@media (max-width: 485px) {
+	.control-img{
+		width: 10%;
+	}
+	.deviceInfo{
+		text-align:center;
+	}
+	.myIcon{
+	height:20%;
+	width:auto;
+	}
+	.myDevIconCont{
+		width:25%;
+		padding-top:20%;
+	}
+	.myModalDialog{
+		margin-left:0.5em;
+		margin-right:0.5em;
+		width:auto;
+	}
+}
+@media (min-width: 486px) and (max-width: 767px) {
+
+	.control-img{
+		width: 10%;
+	}
+	.deviceInfo{
+		text-align:center;
+	}
+	.myDevIconCont{
+		width:22%;
+	}
+	.myIcon{
+	height:40%;
+	width:auto;
+	}
+	.myModalDialog{
+		margin-left:0.5em;
+		margin-right:0.5em;
+		width:auto;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.control-img{
+		width: 8%;
+	}
+	.myDevIconCont{
+		width:20%;
+	}
+	.myIcon{
+	height:30%;
+	width:auto;
+	}
+	.myModalDialog{
+		margin-left:2.5em;
+		margin-right:2.5em;
+		width:auto;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.control-img{
+		width: 6%;
+	}
+	.deviceIcon{
+		padding:0.2em;
+	}
+	.myDevIconCont{
+		width:20%;
+	}
+	.myIcon{
+	height:40%;
+	width:auto;
+	}
+	.myModalDialog{
+		margin-left:5em;
+		margin-right:5em;
+		width:auto;
+	}
+	.myResIcon{
+	padding-left:0;
+	padding-right:0;
+	}
+}
+@media (min-width: 1200px) {
+	.control-img{
+		width: 5%;
+	}
+	.deviceIcon{
+		padding:0.2em;
+	}
+	.indexImage{
+		width: 100%;
+		height: 25.8%;
+	}
+	.myDevIconCont{
+		width:20%;
+	}
+	.myIcon{
+	height:40%;
+	width:auto;
+	}
+	.myModalDialog{
+		margin-left:10em;
+		margin-right:10em;
+		width:auto;
+	}
+	p{
+		font-size: 1em;
+		font-family: Roboto;
+		color: #252525;
+		font-weight: 300;
+	}
+	
+
+	
+}

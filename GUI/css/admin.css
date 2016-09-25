@@ -1,0 +1,190 @@
+#addTower{
+	zoom:2;
+}
+.addDeviceBtn,.generalBtn{
+	margin-right:1em !important;
+	border-radius:0;
+	background-color: #34afd3;
+	font-family:Raleway;
+}
+.colContainer{
+	border-radius: 0.5em;
+	border-width: 0.2em;
+	border-color: #dadada;
+	border-style: solid;
+	padding:1em;
+}
+.device{
+	background-color: #fafafc;
+	border:1em solid;
+	border-color:white;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+.deviceInfo{
+	font-family: Roboto;
+	color: #252525;
+	font-weight: 400;
+}
+#editDevice{
+	color:#e8e8ea;
+}
+#editDevice:hover{
+	color:#ea6b56 !important;
+}
+h2{
+	font-family: Roboto;
+	color: #34afd3;
+	font-size:1.5em;
+	font-weight: 500;
+}
+.myBlue{
+	color:#34afd3;
+}
+.myDataBox{
+	border-style:hidden;
+	border-radius:0;
+	height:3em;
+}
+.myDataForm{
+	padding:0.5em;
+}
+.myDataIcon{
+	background:white;
+	border-radius:0;
+	border-style:hidden;
+	bottom:0;
+	top:0;
+	height:3em;
+}
+.myIcon{
+	height:40%;
+	width:auto;
+}
+.myModal{
+	border-radius:0;
+	background:#f8f8f8;
+	padding:1em 1em 1em 1em;
+}
+.myModalBody{
+	background-color:#f6f6f6;
+	padding:2em 0 2em 0;
+	margin: 0 2em 0 2em;
+}
+.myModalHeader{
+	border:0;
+	padding-bottom:0;
+}
+.myRed{
+	color:#ea6b56 !important;
+}
+.mySelect{
+	width: 100%;
+	font-family:Roboto;
+}
+.mySystemContainer{
+	background-color: #86cccc;
+	background-image:url(../img/background.png);
+	padding:1%;
+}
+.myWhiteDiv{
+	background-color:white;
+}
+.redGreyBtn{
+	color:#e8e8ea;
+}
+.redGreyBtn:hover{
+	color:#ea6b56 !important;	
+}
+#removeDevice{
+	color:#e8e8ea;
+}
+#removeDevice:hover{
+	color:#ea6b56 !important;
+}
+.removeTower{
+	zoom:2;
+}
+#submitSystem{
+	margin-top:1em;
+}
+.towerLegend{
+	border:0;
+	margin:0 auto;
+	width:auto;
+	padding:0 1em 0 1em;
+	font-family: Roboto;
+	color: #dadada;
+	font-weight: 400;
+}
+@media (max-width: 767px) {
+	#editDevice{
+		zoom:1.2;
+		margin-left:0em;
+	}
+	.control-img{
+		width: 10%;
+	}
+	#removeDevice{
+		zoom:1.2;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#editDevice{
+		zoom:1.5;
+		margin-left:0em;
+	}
+	.control-img{
+		width: 8%;
+	}
+	#removeDevice{
+		zoom:1.5;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#editDevice{
+		zoom:1.8;
+		margin-left:0.4em;
+	}
+	.control-img{
+		width: 6%;
+	}
+	#removeDevice{
+		zoom:1.8;
+	}
+}
+@media (min-width: 1200px) {
+	#editDevice{
+		zoom:1.9;
+		margin-left:0.4em;
+	}
+	.addDeviceModal{
+		width: 59.6%;
+		height: 20.1%;
+		border-width: 26.53px;
+		border-color: #f8f8f8;
+		border-style: solid;
+		background-color: #ffffff;
+		box-shadow: 0px 0px 57px 0.00px rgba(0, 0, 0, 0.2);
+	}	
+	h1{
+		font-family: Raleway;
+		color: #252525;
+		font-size: 1.5em;
+		font-weight:900;
+	}
+	.myModalDialog{
+		margin-left:10em;
+		margin-right:10em;
+		width:auto;
+	}
+	p{
+		font-size: 1em;
+		font-family: Roboto;
+		color: #252525;
+		font-weight: 300;
+	}
+	#removeDevice{
+		zoom:1.9;
+	}
+}
